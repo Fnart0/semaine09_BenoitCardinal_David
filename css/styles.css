@@ -12,7 +12,7 @@ nav li:nth-child(2) {
 .exercice02 blockquote::first-letter {
 
     color: red;
-    font-size: 50px;
+    font-size: 3.125rem;
 
 }
 
@@ -32,7 +32,16 @@ nav li:nth-child(2) {
 }
 
 /* Exercice 05 */
+.exercice05 li a[href^='https://']::after {
 
+    content: 'key';
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-size: 1.4rem;
+    line-height: 1;
+    margin-left: 5px;
+
+}
 
 /* Exercice 06 */
 
