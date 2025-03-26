@@ -34,7 +34,7 @@ nav li:nth-child(2) {
 /* Exercice 05 */
 .exercice05 li a[href^='https://']::after {
 
-    content: 'key';
+    content: 'open_in_new';
     display: inline-block;
     font-family: 'Material Icons';
     font-size: 1.4rem;
